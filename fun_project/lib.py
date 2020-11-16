@@ -48,6 +48,10 @@ def clean_data(data):
     return data
 
 
+def try_me():
+    print('coding is fun we love it')
+
+
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
     import fun_project
@@ -55,3 +59,6 @@ if __name__ == '__main__':
     df = pd.read_csv('{}/data/data.csv.gz'.format(folder_source))
     clean_data = clean_data(df)
     print(' dataframe cleaned')
+
+
+
